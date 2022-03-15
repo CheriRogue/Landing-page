@@ -1,52 +1,12 @@
-ul {
-    list-style: none;
-}
-
 body {
-   font-family: 'Roboto';
-   background: #1f2937;
+   font-family: Roboto;
+   display: flex;
+   flex-direction: column;
 }
 
 .hero {
     background: #1f2937;
     min-height: 300px;
     color: white;
-    
-       
-}
-
-.left-link a {
-    font-size: 24px;
-    color: #f9faf8;
-    text-decoration: none;
-    list-style: none;
-    
-}
-
-.right-link a {
-    
-    text-decoration: none;
-    color: #f9faf8;
-}
-
-.container .right-link {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-    }    
-
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
-p {
-    font-size: 18px;
-    color: #f9faf8;
-}
-
-.hero .container {
-    padding: 0 50px;
+    padding: 16px;
 }
