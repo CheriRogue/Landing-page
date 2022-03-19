@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0px 80px 50px 80px;
+  padding: 0px 70px 50px 70px;
 }
 
 .header {
@@ -33,6 +33,7 @@ body {
   color: #e5e7eb;
   font-size: 18px;
   padding: 8px;
+  margin-right: 40px;
 }
 
 .container1 p {
@@ -46,7 +47,13 @@ h1 {
   font-weight: 600;
 }
 
-.container1 {
+.welcome {
+  display: flex;
+}
+
+.container1,
+.h1,
+.p {
   width: 400px;
   gap: 100px;
 }
@@ -56,10 +63,39 @@ h1 {
   height: 200px;
   background-color: gray;
   color: #f9faf8;
-  margin-left: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 30%;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  padding: 5px 20px;
+  border: none;
+}
+
+.boxes h2 {
+  text-align: center;
+}
+
+.box {
+  border: 4px;
+  border-style: solid;
+  color: #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
 }
 
 .footer {
